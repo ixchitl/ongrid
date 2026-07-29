@@ -1074,7 +1074,6 @@ type workloadItem struct {
 		DesiredNumberScheduled int            `json:"desiredNumberScheduled"`
 		NumberReady            int            `json:"numberReady"`
 		Succeeded              int            `json:"succeeded"`
-		Active                 int            `json:"active"`
 		Conditions             []k8sCondition `json:"conditions"`
 	} `json:"status"`
 }
